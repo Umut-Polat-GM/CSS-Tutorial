@@ -25,9 +25,9 @@ ul li:nth-child(2) {
   color: red;
 }
 
-::marker {
+/* ::marker {
   color: red;
   font-family: fantasy;
   font-size: 2rem;
   content: "hmm >>";
-}
+} */
