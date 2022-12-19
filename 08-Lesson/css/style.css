@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+/* Begin Reset */
+
+/* Utility Classes */
+.nowrap{
+  white-space: nowrap;
+}
+/* End Utility Classes */
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+  background-image: linear-gradient(skyblue, purple, white, green);
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: bisque;
+  /* background-image: url(../img/pat1.png); */ /*default repeat image */
+  background-image: url(../img/scenic-2200x1331.png);
+  background-size: cover;  /*image so big I need cover*/
+}
+
+.h1{
+  font-size: 500%;
+  color: whitesmoke;
+}
+
+.profile-pic-figure{
+  width: 35%;
+}
+
+.profile-pic-figure img{
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px solid grey;
+  border-radius: 50%;
+}
+
+/* .example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.example img {
+  width: 25%;
+  height: auto;
+} */
+
+
+
